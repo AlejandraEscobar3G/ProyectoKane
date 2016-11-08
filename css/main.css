@@ -1,0 +1,201 @@
+		/*header*/
+nav, .section, .footer{
+	background-color: #04AD69;
+}
+.icon-bar, .fondo_blanco{
+	background-color: white;
+}
+.navbar-toggle{
+	border: 2px solid white;
+}
+li>a{
+	color: white;
+}
+a{
+	text-decoration: none !important;
+}
+		/*margin y padding*/
+.mg-left{
+	margin-left: 10%;
+}
+.pd-2{
+	padding: 2%;
+}
+.pd-4{
+	padding: 4%;
+}
+.pd-6{
+	padding: 6%;
+}
+.pd-20{
+	padding: 1% 20%;
+}
+.m0{
+	margin: 0;
+}
+.mt-2{
+	margin-top: 2%;
+}
+.mt-4{
+	margin-top: 4%;
+}
+.m-t-b{
+	margin: 15% 0;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pt-4{
+	padding-top: 4%;
+}
+.p-lados6{
+	padding: 1% 6%;
+}
+		/*textos*/
+.text-white, p>a{
+	color: white;
+}
+.text-black{
+	color: #463F44;
+}
+		/*section 1*/
+#fondo1{
+	background-image: url("../img/carousel-bg.jpg");
+	background-size: 100% 100%;
+}
+h1, h2, p, h4{
+	font-family: 'Roboto:300', sans-serif;
+}
+		/*section 2 escoge tu paleta*/
+.hr_black{
+	border: 1px solid #463F44;
+}
+hr{
+	width: 20%;
+}
+.div{
+	height: 100px;
+	width: 20%;
+	float: left;
+}
+#color1{
+	background-color: #69D2E7;
+}
+#color2{
+	background-color: #A7DBDB;
+}
+#color3{
+	background-color: #E0E4CC;
+}
+#color4{
+	background-color: #F38630;
+}
+#color5{
+	background-color: #FA6900;
+}
+#color6{
+	background-color: #DB3340;
+}
+#color7{
+	background-color: #E8B71A;
+}
+#color8{
+	background-color: #F7EAC8;
+}
+#color9{
+	background-color: #1FDA9A;
+}
+#color10{
+	background-color: #28ABE3;
+}
+#color11{
+	background-color: #588C73;
+}
+#color12{
+	background-color: #F2E394;
+}
+#color13{
+	background-color: #F2AE72;
+}
+#color14{
+	background-color: #D96459;
+}
+#color15{
+	background-color: #8C4646;
+}
+#color16{
+	background-color: #D0C91F;
+}
+#color17{
+	background-color: #85C4B9;
+}
+#color18{
+	background-color: #008BBA;
+}
+#color19{
+	background-color: #DF514C;
+}
+#color20{
+	background-color: #DC403B;
+}
+		/*Section 3 Acerca de nosotros */
+.fondo_azul{
+	background-color: #2C3E4F;
+}
+.hr_white{
+	border: 1px solid white;
+}
+		/*section 4  What we do*/
+.img-centro{
+	display: block;
+	margin: auto;
+}
+		/*section team*/
+.borde_rayado{
+	border-bottom: 1px dashed #463F44;
+}
+		/*section mejor precio*/
+.paquetes{
+	border: 2px solid #04AD69;
+	margin-top: 10%;
+}
+		/*Section opiniones de clientes*/
+blockquote{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+		/*Section de las redes sociales*/
+#fondo_sociales{
+	background-image: url("../img/img-divider-img.jpg");
+	background-size: 100% 100%;
+}
+		/*footer*/
+.inline{
+	display: inline-block;
+}
+li.inline{
+	padding: 1%;
+}
+		/*hover*/
+button.fondo_azul:hover{
+	color: white;
+	background-color:#AE673A; 
+}
+div.fondo-hover:hover{
+	background-color: #20725A;
+
+}
+div.fondo-hover img:hover{
+	background-color: #AE673A;
+	/*codigo para rotar una imagen en 1 segundo*/
+	-ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+    -webkit-transition: 1s; /* Chrome, Safari, Opera */
+    transition: 1s;
+}
+div.paquetes:hover{
+	border: 2px solid #845E44;
+	margin-top: 2% !important;
+}
